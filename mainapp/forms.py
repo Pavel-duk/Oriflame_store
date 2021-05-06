@@ -84,4 +84,5 @@ class RegistrationForm(forms.ModelForm):
         model = User
         fields = ['username','password','confirm_password','first_name','last_name','address','phone','email']
 
-
+    def prosto(self):
+        pass
